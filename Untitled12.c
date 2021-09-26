@@ -62,6 +62,6 @@ int main()
 {
 	create();
 	view(head);
-	evennum(head);
+	oddnum(head);
 	printf("\n");
 }
