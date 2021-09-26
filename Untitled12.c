@@ -1,4 +1,5 @@
-
+//cse-19-43
+//program to display odd numbers
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -44,7 +45,7 @@ void view(struct node *p)
 	printf("\n\n");
 	
 }
-void evennum(struct node *p)
+void oddnum(struct node *p)
 {
 	printf("\n odd numbers in the list are :");
 	while(p!=NULL)
